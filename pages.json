@@ -1,0 +1,121 @@
+{
+	"pages": [
+	{
+	  "path" : "pages/home/home",
+	  "style" : 
+	  {
+	    "navigationBarTitleText" : "牛肉面",
+	    "enablePullDownRefresh" : false
+	  }
+	},
+	{
+	  "path" : "pages/message/message",
+	  "style" : 
+	  {
+	    "navigationBarTitleText" : "牛肉面",
+	    "enablePullDownRefresh" : false
+	  }
+	},
+	{
+	  "path" : "pages/cart/cart",
+	  "style" : 
+	  {
+	    "navigationBarTitleText" : "牛肉面",
+	    "enablePullDownRefresh" : false
+	  }
+	},
+	{
+	  "path" : "pages/my/my",
+	  "style" : 
+	  {
+	    "navigationBarTitleText" : "牛肉面",
+	    "enablePullDownRefresh" : false
+	  }
+	},
+	{
+	  "path" : "compontents/my-search/my-search",
+	  "style" : 
+	  {
+	    "navigationBarTitleText" : "",
+	    "enablePullDownRefresh" : false
+	  }
+	},
+	{
+	  "path" : "uni_modules/my-search/my-search/my-search",
+	  "style" : 
+	  {
+	    "navigationBarTitleText" : "",
+	    "enablePullDownRefresh" : false
+	  }
+	},
+	{
+	  "path" : "uni_modules/my-search/my-search",
+	  "style" : 
+	  {
+	    "navigationBarTitleText" : "",
+	    "enablePullDownRefresh" : false
+	  }
+	}
+  ],
+  "subPackages":[
+    {
+      "root":"subpkg",
+      "pages":[{
+        "path":"goods_detail/goods_detail",
+        "style":{}
+      },
+      {
+        "path" : "cate/cate",
+        "style" : 
+        {
+          "navigationBarTitleText" : "",
+          "enablePullDownRefresh" : false
+        }
+      },
+      {
+        "path" : "searchx/searchx",
+        "style" : 
+        {
+          "navigationBarTitleText" : "",
+          "enablePullDownRefresh" : false
+        }
+      }]
+    }
+  ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "牛肉面",
+		"navigationBarBackgroundColor": "#ffaf20",
+		"backgroundColor": "#F8F8F8"
+	},
+  "tabBar": {
+      "color": "#666",
+      "selectedColor": "#ffaf20",
+      "list": [
+        {
+          "pagePath": "pages/home/home",
+          "text": "首页",
+          "iconPath": "./static/tab_icons/home.png",
+          "selectedIconPath": "./static/tab_icons/home-select.png"
+        },
+        {
+          "pagePath": "pages/message/message",
+          "text": "消息",
+          "iconPath": "./static/tab_icons/message.png",
+          "selectedIconPath": "./static/tab_icons/message-select.png"
+        },
+        {
+          "pagePath": "pages/cart/cart",
+          "text": "购物车",
+          "iconPath": "./static/tab_icons/cart.png",
+          "selectedIconPath": "./static/tab_icons/cart-select.png"
+        },
+        {
+          "pagePath": "pages/my/my",
+          "text": "我的",
+          "iconPath": "./static/tab_icons/my.png",
+          "selectedIconPath": "./static/tab_icons/my-select.png"
+        }
+      ]
+  }
+}

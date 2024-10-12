@@ -19,7 +19,7 @@ export default{
     saveToStorage(state){
       uni.setStorageSync('cart',JSON.stringify(state.cart))
     },
-    //更新购物车商品勾选状态
+    // 更新购物车商品勾选状态
     updateGoodsState(state,goods){
       const findResult=state.cart.find(x=>x.goods_id==goods.goods_id)
       

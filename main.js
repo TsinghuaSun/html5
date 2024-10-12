@@ -5,7 +5,7 @@ import store from '@/store/store.js'
 import{$http}from '@escook/request-miniprogram'
 
 uni.$http=$http
-$http.baseUrl='http://localhost'
+$http.baseUrl='https://7473-tsing-9gkdig40d65bb85b-1323831500.tcb.qcloud.la'
 $http.beforeRequest=function(options){
   uni.showLoading({
     title:'数据加载中...'
